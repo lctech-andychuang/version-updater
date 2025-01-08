@@ -1,0 +1,18 @@
+name: 'Version Updater Action'
+description: 'Custom action to update version and output TAG_VERSION'
+
+inputs:
+  name:
+    description: 'Your name'
+    required: true
+  greeting:
+    description: 'Custom greeting message'
+    default: 'Hello'
+
+outputs:
+  response:
+    description: 'The custom response message'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
