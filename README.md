@@ -33,7 +33,7 @@ jobs:
 
       - name: Update Version
         id: version_updater
-        uses: your-username/version-updater-action@v0
+        uses: lctech-andychuang/version-updater@v0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
