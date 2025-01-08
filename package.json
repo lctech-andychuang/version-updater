@@ -1,7 +1,7 @@
 {
-  "name": "actions_test",
+  "name": "version-updater",
   "version": "1.0.0",
-  "description": "# My Custom Action",
+  "description": "# Version Updater",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
