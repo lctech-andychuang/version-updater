@@ -8,7 +8,7 @@ function error(message: string): void {
 }
 
 // 🚀 **Update Version**
-async function updateVersion(): Promise<void> {
+export async function updateVersion(): Promise<void> {
     const packageJsonPath = path.resolve('package.json');
     if (!fs.existsSync(packageJsonPath)) {
         error('package.json not found.');

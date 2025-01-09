@@ -1,0 +1,11 @@
+{
+  "name": "@lctech-tw/pan-direct-proto",
+  "version": "0.0.173",
+  "description": "template",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
